@@ -1,0 +1,90 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+
+#img{
+    height: 1100px;
+    background-image: url('images/places/main-page.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+#inside-img {
+    padding: 30px;
+    width: 600px;
+    margin: 0 auto;
+    color: white;
+    background-color: rgba(110,106,88,0.7);
+    position: relative;
+    top: 300px;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow:0px 1px 7px #b5ab85;
+}
+#inside-img h1{
+    font-size: 40px;
+}
+#inside-img p{
+    margin-bottom: 40px;
+}
+#inside-img a{
+    background-color: #924BD9;
+    color: #D8CF1D;
+    padding: 20px;
+    border-radius: 12px;
+    
+    text-decoration: none;
+    box-shadow:2px 1px 1px #340022;
+}
+#inside-img a:hover{
+    color: #00B3FF;
+    background-color: #FFC300;
+    padding: 30px;
+}
+
+#part-2{
+    padding: 10px;
+   height: 600px;
+   background: linear-gradient(30deg,  #1e6cb9, #74428c);
+}
+#part-2 h2{
+  font-size: 60px;
+  color: white;
+  position: relative;
+  bottom: -50px;
+  border: 1px solid white;
+ background-color: #385258;
+ width: 350px;
+ margin: 0 auto;
+ border-radius: 6px;
+ text-align: center;
+ box-shadow: 5px 2px 6px #302727;
+}
+#part-2 ul{
+  list-style: none;
+  display: flex;
+ margin: auto;
+ margin-top: 120px;
+}
+#part-2 li{
+  text-align: center;
+  margin: 0 10px;
+}
+#part-2 li img{
+  height: 200px;
+  box-shadow: 3px 3px 8px #3a4548;
+  border-radius: 10px;
+  object-fit: cover;
+}
+#part-2 li p{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+strong {
+  color: #9d3dab;
+  text-transform: uppercase;
+  text-shadow: 4px 4px 1px #404a4d;
+}
